@@ -242,15 +242,34 @@ footer .section-title{
 }
 
 @media screen and (max-width: 576px){
-    .skill-container, .resume-container, footer{
+    .skill-container,
+    .resume-container, 
+    footer,
+    nav, 
+    nav ul,
+    .about-items,
+    .banner{
         flex-direction: column;
     }
-    .footer{
-        padding: 0px;
+    nav ul{
+        gap: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 10px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .footer, .about{
+        padding: 20px;
     }
     .footer-column{
         width: 100%;
     }
+    
 }
 
 
