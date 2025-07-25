@@ -235,6 +235,25 @@ footer .section-title{
     text-align: left;
 }
 
+/* responsive media query */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skill-container, .resume-container, footer{
+        flex-direction: column;
+    }
+    .footer{
+        padding: 0px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+}
+
+
 
 
 
